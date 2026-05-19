@@ -1,0 +1,52 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "waits-and-windows-handling;verify-playwright-waits",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "verify playwright Waits",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I launch the browser",
+            "match": {
+              "location": "PlaywrightAutomationCode/StepDefinition/Steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 413168582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I verify playwright Waits",
+            "result": {
+              "status": "ambiguous",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@method3",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "waits-and-windows-handling",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Waits And Windows Handling",
+    "tags": [],
+    "uri": "PlaywrightAutomationCode/FeatureFiles/waits.feature"
+  }
+]
